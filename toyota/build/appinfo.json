@@ -1,0 +1,33 @@
+{
+    "displayName": "toyota",
+    "uuid": "ff2f6039-33ea-410b-9f40-5ca23a37f19b",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "watchapp": {
+        "watchface": true
+    },
+    "messageKeys": {
+        "dummy": 10000
+    },
+    "resources": {
+        "media": [
+            {
+                "type": "bitmap",
+                "name": "IMAGE_DR_PEPPER_LOGO",
+                "file": "images/toyota.png"
+            }
+        ]
+    },
+    "name": "toyota",
+    "shortName": "toyota",
+    "longName": "toyota",
+    "versionLabel": "1.0",
+    "companyName": "Hayes Bolen",
+    "appKeys": {
+        "dummy": 10000
+    },
+    "capabilities": []
+}

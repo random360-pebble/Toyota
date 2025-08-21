@@ -1,0 +1,36 @@
+{
+  "name": "toyota",
+  "author": "Hayes Bolen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {
+    "pebble-events": "^1.0.0"
+  },
+  "pebble": {
+    "displayName": "toyota",
+    "uuid": "ff2f6039-33ea-410b-9f40-5ca23a37f19b",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "IMAGE_DR_PEPPER_LOGO",
+          "file": "images/toyota.png"
+        }
+      ]
+    }
+  }
+}
+
+
